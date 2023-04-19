@@ -1,11 +1,18 @@
 .App {
-  text-align: center;
+  background-color: rgb(15, 15, 15);
+  color: beige;
 }
-
+input{margin-left: 5px;}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+
+label{
+  font-weight: bold;
+  font-size: large;
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
